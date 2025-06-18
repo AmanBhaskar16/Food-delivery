@@ -1,9 +1,10 @@
 .header{
   height:34vw;
   margin:30px auto;
-  background: url('../../assets/frontend_assets/header_img.png') no-repeat;
-  background-size:contain;
+  background: url('../../assets/frontend_assets/header.jpg') no-repeat;
+  background-size:cover;
   position:relative;
+  border-radius:15px;
 }
 
 .header-content{
@@ -14,7 +15,7 @@
   gap:1.5vw;
   max-width: 50%;
   bottom: 10%;
-  left: 6vw;
+  left: 10vw;
   animation: fadeIn 3s;
 }
 
@@ -31,12 +32,13 @@
 
 .header-content button{
   border: none;
-  color:#747474;
+  color:#fff;
   font-weight: 500;
   padding: 1vw 2.3vw;
-  background-color: white;
+  background-color: rgb(236, 132, 46);
   font-size: max(1vw,13px);
   border-radius: 50px;
+  cursor:pointer;
 }
 
 @media (max-width:1050px){

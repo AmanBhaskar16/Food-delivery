@@ -1,0 +1,33 @@
+PART-1 (FRONTEND)
+
+1. We will start by creating navbar.Files involved are
+  -> Components/Navbar
+  -> App.jsx
+
+2. Now we will create multiple pages inside the page folder. And use react-router-dom to create client side routing. Folder and files involved :-
+ -> App.jsx
+ -> Pages folder
+
+************************* HOME PAGE ************************
+
+3. Then we will create Home page . Folder and files involved :-
+ -> Header
+
+4. Then we will create ExploreMenu inside the components 
+
+5. After that we will create context folder and inside it storeContext.jsx .Here whatever we will write will be globally available in all the files. Also main.jsx file is used to set the domain in which this feature can be used.
+
+6. Now we will create a new folder foodDisplay to display the selected food items.
+
+7. After that we will require each food item card,Therefore , we will create a new folder foodItem.
+
+8. After that we will create footer and thus completing the Home page.
+
+************************ LOGIN PAGE **********************
+
+9. For login we will create a loginPop folder to pop up login form when clicked on login button
+
+************************* CART PAGE ************************
+
+10. We will create a folder named Cart to show all the billing details.
+

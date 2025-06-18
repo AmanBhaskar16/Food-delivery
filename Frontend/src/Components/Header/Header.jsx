@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <div className='header'>
       <div className="header-content">
-        <h2>Order your favourite food here</h2>
-        <p>Craving something delicious? Get your favorite meals delivered fast and fresh from top restaurants near you. Order now and enjoy hassle-free food delivery at your doorstep!</p>
+        <h2>Fueling Late Nights & Lazy Days</h2>
+        <p>Fine dining, delivered. Curated from top restaurants and crafted for convenience, we bring gourmet meals to your door — fresh, elegant, and right on time. Indulge in restaurant-quality food without leaving home.</p>
         <button>View Menu</button>
       </div>
     </div>
